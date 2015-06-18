@@ -22,7 +22,7 @@
                                 "Phidget21.framework"
                             ],
                         },
-                        'include_dirs': [ '/Library/Frameworks/Phidget21.framework/Headers' ],
+                        'include_dirs': [ '-l/Library/Frameworks/Phidget21.framework/Headers' ],
                         'libraries': [ '/Library/Frameworks/Phidget21.framework' ]
                     }
                 ],
